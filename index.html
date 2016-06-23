@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Dobble</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="inner">
+      <div class="message">Try to find an image shown on two cards</div>
+      <button id="play" class="btn">Start</button>
+    </div>
+  </div>
+  <div class="status-bar">
+    <div class="card-in-deck">Left in deck: <span class="counter">0</span></div>
+    <div class="score">Score: <span class="counter">0</span></div>
+    <div class="high-score">High Score: <span class="counter">0</span></div>
+  </div>
+  <div class="board">
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+<script src="js/data.js"></script>
+<script src="js/dobble.js"></script>
+</body>
+</html>
+
